@@ -221,3 +221,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# StaySmart - datasets
+data/raw/
+data/processed/
+
+# Environment variables
+.env.*
+!.env.example
+
+# Frontend (React / Vite)
+node_modules/
+dist/
+.vite/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+.idea/
+.vscode/
